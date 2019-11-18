@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: create codecommit
+
+Resources:
+  codecommit:
+    Type: AWS::CodeCommit::Repository
+    Properties:
+      RepositoryName: test-repository
+      RepositoryDescription: Test Repository
